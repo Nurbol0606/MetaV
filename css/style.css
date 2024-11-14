@@ -11,6 +11,10 @@ body {
     background: #010209;
 }
 
+button {
+    font-family: Poppins, sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -39,7 +43,7 @@ h2 span {
 }
 
 #header {
-    padding-block: 30px;
+    padding-block: 60px;
 }
 
 
@@ -68,14 +72,13 @@ nav a {
 
 }
 
-#main {
-    padding-block: 70px;
-}
+
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
+    padding: 50px;
 }
 
 .main-text {
@@ -85,7 +88,7 @@ nav a {
 }
 
 .main img {
-    max-width: 456px;
+    max-width: 606px;
     width: 100%;
 }
 
@@ -158,20 +161,25 @@ nav a {
 
 }
 
+.logo-img .image {
+    max-width: 700px;
+}
+
 .logo-text h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .logo-text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 }
 
 .logo-text h1 span {
     background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
-    -webkit-background-cxlip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 40px;
 
 }
 
@@ -183,10 +191,218 @@ nav a {
 }
 
 .logo-text button {
-    color: #fff;
+    color: #f6f4f4;
     background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
-    width: 130px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     border-radius: 6px;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
 
 }
+
+#prace {
+    padding-block: 120px;
+}
+
+.prace-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+
+}
+
+.prece-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prece-text span {
+    background-image: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.prece-text h1 {
+    font-size: 40px;
+}
+
+.prece-text p {
+    font-family: Poppins, sans-serif;
+    width: 650px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.684);
+}
+
+.prace-title h1 {
+    font-size: 24px;
+}
+
+.img1 {
+    max-width: 400px;
+}
+
+.prace-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 20px;
+    border: solid 1px rgb(18, 18, 11);
+    width: 380px;
+    height: 430px;
+    background: #070b29;
+}
+
+.prace-title p {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 330px;
+}
+
+.prace-title .btn :first-child {
+    width: 110px;
+    height: 35px;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+}
+
+.prace-title .btn :last-child {
+    width: 120px;
+    height: 35px;
+    border: solid 1px;
+    background: rgba(9, 8, 35, 1);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#meta {
+    padding: 60px;
+}
+
+.meta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+
+}
+
+.meta-text p {
+    font-family: Popins, sans-serif;
+    font-size: 19px;
+    color: rgba(240, 248, 255, 0.773);
+    font-weight: 400;
+}
+
+.meta-text span {
+    background-image: linear-gradient(97.16deg, #e9c6e9 12.04%, #2cbdf2 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.meta-text h1 {
+    width: 500px;
+    font-size: 40px;
+}
+
+.image {
+    max-width: 1200px;
+}
+
+
+#footer {
+    padding: 60px;
+    padding-top: 130px;
+    background: #070b29;
+}
+
+.footer-text p {
+    width: 400px;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.698);
+    line-height: 30px;
+}
+
+.footer-text h1 {
+    font-size: 40px;
+    background-image: linear-gradient(97.16deg, #f68af6d9 12.04%, #28a4d2 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+
+.footer-title{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-text1 h1 {
+    font-size: 20px;
+}
+
+.footer-text1 h6 {
+    font-family: Popins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-text2 h1 {
+    font-size: 20px;
+}
+
+.footer-text2 h6 {
+    font-family: Popins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-text3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.footer-text3 p {
+    font-family: Popins, sans-serif;
+    width: 250px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer-text3 .img {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-text3 img{
+    width: 20px;
+}
+
