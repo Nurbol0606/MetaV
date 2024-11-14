@@ -152,57 +152,7 @@
     }
 }
 
-
-@media(max-width:350px) {
-    .main-text h1 {
-        max-width: 300px;
-        font-size: 18px;
-    }
-
-    .main-text h1 span {
-        font-size: 19px;
-    }
-
-    .main-text p {
-        font-size: 10px;
-        max-width: 150px;
-    }
-
-    .main-btn button:first-child {
-        font-size: 8px;
-        max-width: 75px;
-        max-height: 22px
-    }
-
-    .main-btn button {
-        font-size: 10px;
-        max-width: 75px;
-        max-height: 22px
-    }
-
-    .main-plan {
-        display: flex;
-        gap: 7px;
-    }
-
-    .main-plan h2 {
-        font-size: 11px;
-    }
-
-    .main img {
-        max-width: 150px;
-    }
-}
-
-@media (max-width: 346px) {
-    .main-text h1 {
-        font-size: 11px;
-    }
-
-    h2 span {
-        font-size: 15px;
-    }
-
+@media(max-width:405px) {
     .main {
         flex-direction: column-reverse;
         align-items: center;
@@ -211,18 +161,6 @@
     .main-text {
         align-items: center;
         text-align: center;
-    }
-
-    .main-text h1 {
-        font-size: 26px;
-    }
-
-    .main img {
-        max-width: 225px;
-    }
-
-    .main-plan {
-        display: none;
     }
 }
 
@@ -326,43 +264,39 @@
     }
 }
 
-@media (max-width: 345px) {
-    .logo-text h1 span {
-        font-size: 16px;
+@media (max-width: 405px) {
+    .logo-img .image {
+        max-width: 300px;
     }
 
     .logo-text h1 {
-        font-size: 15px;
+        font-size: 24px;
+    }
+
+    .logo-text h1 span {
+        font-size: 24px;
     }
 
     .logo-text p {
-        font-size: 9px;
-        max-width: 300px;
-        color: #b2b1b1f1;
+        font-size: 10px;
+        max-width: 270px;
         font-weight: 500;
-        line-height: 15px;
     }
 
     .logo-text button {
-        max-width: 55px;
-        height: 19px;
+        max-width: 65px;
+        height: 20px;
         font-size: 7px;
-    }
-
-    .logo-img .image {
-        max-width: 300px;
+        font-weight: 400;
     }
 
     .logo {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
-
     }
 }
 
-@media (max-width: 343px) {
+@media (max-width: 405px) {
 
     .prace-box {
         display: flex;
@@ -371,19 +305,26 @@
     }
 }
 
-@media (max-width: 343px) {
+@media (max-width: 405px) {
+    #prace{
+     padding-block: 20px;
+    }
+    .prace {
+        display: flex;
+        flex-direction: column;
+    }
+
     .prece-text {
-        align-items: flex-start;
         display: flex;
         gap: 20px;
     }
 
     .prece-text h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .prece-text span {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .prece-text p {
@@ -414,28 +355,44 @@
         display: flex;
         gap: 30px;
     }
+
+    .prace-title .btn :first-child{
+        width: 90px; ;
+        height: 30px;
+        font-size: 13px;
+    }
+    .prace-title .btn :last-child {
+        width: 90px; ;
+        height: 30px;
+        font-size: 12px;
+    }
 }
 
-@media (max-width: 343px) {
+@media (max-width: 405px) {
     .meta-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .meta span {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .meta-text p {
-        max-width: 440px;
+        max-width: 200px;
         font-size: 9px;
     }
 
     .image {
         max-width: 310px;
     }
+    .meta-text{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
 }
 
-@media (max-width: 343px) {
+@media (max-width: 405px) {
     .footer-text h1 {
         font-size: 27px;
     }
@@ -466,13 +423,7 @@
     .footer {
         display: flex;
         flex-direction: column;
-         gap: 30px;
-        /* align-items: center; */
-    }
-
-    /* .footer {
-        display: flex;
         gap: 30px;
-        align-items: center;
-    } */
+
+    }
 }
